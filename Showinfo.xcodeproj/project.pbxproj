@@ -14,6 +14,9 @@
 		E2532237206F35C200453564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2532235206F35C200453564 /* LaunchScreen.storyboard */; };
 		E2532242206F35C200453564 /* ShowinfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2532241206F35C200453564 /* ShowinfoTests.swift */; };
 		E253224D206F35C200453564 /* ShowinfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253224C206F35C200453564 /* ShowinfoUITests.swift */; };
+		E253225B206F568500453564 /* CellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253225A206F568500453564 /* CellVC.swift */; };
+		E2991E6F2070663700906304 /* Customview.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2991E6E2070663700906304 /* Customview.swift */; };
+		E2991E712070819E00906304 /* Infopage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2991E702070819E00906304 /* Infopage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		E2532248206F35C200453564 /* ShowinfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowinfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E253224C206F35C200453564 /* ShowinfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowinfoUITests.swift; sourceTree = "<group>"; };
 		E253224E206F35C200453564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E253225A206F568500453564 /* CellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellVC.swift; sourceTree = "<group>"; };
+		E2991E6E2070663700906304 /* Customview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customview.swift; sourceTree = "<group>"; };
+		E2991E702070819E00906304 /* Infopage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infopage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				E253222C206F35C200453564 /* AppDelegate.swift */,
 				E253222E206F35C200453564 /* ViewController.swift */,
 				E2532230206F35C200453564 /* Main.storyboard */,
+				E2991E702070819E00906304 /* Infopage.swift */,
+				E2991E6E2070663700906304 /* Customview.swift */,
+				E253225A206F568500453564 /* CellVC.swift */,
 				E2532233206F35C200453564 /* Assets.xcassets */,
 				E2532235206F35C200453564 /* LaunchScreen.storyboard */,
 				E2532238206F35C200453564 /* Info.plist */,
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E253222F206F35C200453564 /* ViewController.swift in Sources */,
+				E2991E6F2070663700906304 /* Customview.swift in Sources */,
 				E253222D206F35C200453564 /* AppDelegate.swift in Sources */,
+				E2991E712070819E00906304 /* Infopage.swift in Sources */,
+				E253225B206F568500453564 /* CellVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
